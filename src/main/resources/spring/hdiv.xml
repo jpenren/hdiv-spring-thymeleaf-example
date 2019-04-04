@@ -7,6 +7,8 @@
                            http://www.hdiv.org/schema/hdiv http://www.hdiv.org/schema/hdiv/hdiv.xsd">
 
 
+<!-- configure like: https://github.com/hdiv/spring-boot-starter-hdiv/blob/master/spring-boot-starter-hdiv-commons/src/main/java/org/hdiv/spring/boot/autoconfigure/HdivAutoConfiguration.java -->
+
   <hdiv:config>
     <hdiv:startPages>/,/login</hdiv:startPages>
   </hdiv:config>

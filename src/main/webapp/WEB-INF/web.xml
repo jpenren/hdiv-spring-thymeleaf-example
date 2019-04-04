@@ -7,8 +7,8 @@
 
   <context-param>
     <param-name>contextConfigLocation</param-name>
-    <param-value>classpath:/spring/application-context.xml,
-      classpath:/spring/spring-security.xml, classpath:/spring/hdiv.xml</param-value>
+    <!-- hdiv before Spring Security to avoid to create CsrfRequestDataValueProcessor twice -->
+    <param-value>classpath:/spring/application-context.xml,classpath:/spring/hdiv.xml,classpath:/spring/spring-security.xml</param-value>
   </context-param>
   
   <listener>
