@@ -8,6 +8,12 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>hdiv-spring-thymeleaf-example Maven Webapp</name>
   <url>http://maven.apache.org</url>
+  
+  <properties>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+    <hdiv.version>4.0.0-SNAPSHOT</hdiv.version>
+  </properties>
 
   <build>
     <finalName>hdiv-spring-thymeleaf-example</finalName>
@@ -51,17 +57,17 @@
     <dependency>
       <groupId>org.hdiv</groupId>
       <artifactId>hdiv-config</artifactId>
-      <version>3.4.0</version>
+      <version>${hdiv.version}</version>
     </dependency>
     <dependency>
       <groupId>org.hdiv</groupId>
       <artifactId>hdiv-spring-mvc</artifactId>
-      <version>3.4.0</version>
+      <version>${hdiv.version}</version>
     </dependency>
     <dependency>
       <groupId>org.hdiv</groupId>
       <artifactId>hdiv-thymeleaf</artifactId>
-      <version>3.4.0</version>
+      <version>${hdiv.version}</version>
     </dependency>
 
     <dependency>
